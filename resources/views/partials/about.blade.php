@@ -16,11 +16,11 @@
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h4>2009-2011</h4>
-                <h4 class="subheading">Our Humble Beginnings</h4>
+                <h4>Février</h4>
+                <h4 class="subheading">Debut Formation</h4>
               </div>
               <div class="timeline-body">
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                <p class="text-muted">Formaion developpeur à molengeek, apprendre le html, css, création "d'un portfolio"</p>
               </div>
             </div>
           </li>
@@ -30,11 +30,11 @@
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h4>March 2011</h4>
-                <h4 class="subheading">An Agency is Born</h4>
+                <h4>Mars début de javascript</h4>
+                <h4 class="subheading"></h4>
               </div>
               <div class="timeline-body">
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                <p class="text-muted">Apprendre le javascript et integrer dans un portfolio</p>
               </div>
             </div>
           </li>
@@ -44,11 +44,11 @@
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h4>December 2012</h4>
-                <h4 class="subheading">Transition to Full Service</h4>
+                <h4>Avril-</h4>
+                <h4 class="subheading"></h4>
               </div>
               <div class="timeline-body">
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                <p class="text-muted">Apprendre vue js</p>
               </div>
             </div>
           </li>
@@ -58,11 +58,11 @@
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h4>July 2014</h4>
-                <h4 class="subheading">Phase Two Expansion</h4>
+                <h4>mai-Juin</h4>
+                <h4 class="subheading"></h4>
               </div>
               <div class="timeline-body">
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                <p class="text-muted">Apprendre laravel</p>
               </div>
             </div>
           </li>

@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('/layouts.front');
 });
 
 Auth::routes();
@@ -24,3 +24,5 @@ Route::get('/admin/contacts','ContactController@index');
 Route::get('/admin/pages','PageController@index');
 
 Route::get('/admin/posts','PostController@index');
+
+Route::get('/admin/edits','EditController@index');

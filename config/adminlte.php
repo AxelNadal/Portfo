@@ -93,7 +93,7 @@ return [
 
     'login_url' => 'login',
 
-    'register_url' => 'register',
+    // 'register_url' => 'register',
 
     /*
     |--------------------------------------------------------------------------
@@ -132,7 +132,11 @@ return [
             'text'        => 'Contacts',
             'url'         => 'admin/contacts',
             'icon'        => 'users',
-            
+        ],
+        [
+            'text'        => 'Edits',
+            'url'         => 'admin/edits',
+            'icon'        => 'edit',
         ],
         'ACCOUNT SETTINGS',
         [
