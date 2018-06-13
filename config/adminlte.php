@@ -137,6 +137,12 @@ return [
             'text'        => 'Edits',
             'url'         => 'admin/edits',
             'icon'        => 'edit',
+            'can'         =>'show',
+        ],
+        [
+            'text'        => 'Projets',
+            'url'         => 'admin/projets',
+            'icon_color'  => 'aqua',
         ],
         'ACCOUNT SETTINGS',
         [

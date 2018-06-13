@@ -23,6 +23,8 @@ Route::get('/admin/contacts','ContactController@index');
 
 Route::get('/admin/pages','PageController@index');
 
-Route::get('/admin/posts','PostController@index');
+Route::resource('/admin/posts','PostController');
 
 Route::get('/admin/edits','EditController@index');
+
+Route::get('/admin/projets','ProjetController@index');
