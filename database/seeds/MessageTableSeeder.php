@@ -2,15 +2,16 @@
 
 use Illuminate\Database\Seeder;
 
-class DatabaseSeeder extends Seeder
+class MessageTableSeeder extends Seeder
 {
     /**
-     * Seed the application's database.
+     * Run the database seeds.
      *
      * @return void
      */
     public function run()
     {
-        $this->call(MessageTableSeeder::class);
+        factory(App\Email::class, 10)->create();
+    
     }
 }

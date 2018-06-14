@@ -129,9 +129,9 @@ return [
             'label_color' => 'success',
         ],
         [
-            'text'        => 'Contacts',
-            'url'         => 'admin/contacts',
-            'icon'        => 'users',
+            'text'        => 'Mailbox',
+            'url'         => 'admin/emails',
+            'icon'        => 'send',
         ],
         [
             'text'        => 'Edits',

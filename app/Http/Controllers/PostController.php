@@ -45,7 +45,7 @@ class PostController extends Controller
         $post = new Post;
         $post->titre = $request->titre;
         $post->contenu = $request->contenu;
-        // $post->user_id = Auth::user()->id;
+        $post->user_id = Auth::user()->id;
 
         // $post->image = App::make('ImageResize')->resizeStore($request->image);
 

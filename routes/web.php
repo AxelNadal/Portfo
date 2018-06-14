@@ -11,20 +11,16 @@
 |
 */
 
-Route::get('/', function () {
-    return view('/layouts.front');
-});
-
-Auth::routes();
-
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/admin/contacts','ContactController@index');
+Route::resource('/admin/emails','EmailController');
 
 Route::get('/admin/pages','PageController@index');
 
-Route::resource('/admin/posts','PostController');
+Route::resource('/admin/posts','PostController')->middleware('auth');
+
 
 Route::get('/admin/edits','EditController@index');
 
 Route::get('/admin/projets','ProjetController@index');
+

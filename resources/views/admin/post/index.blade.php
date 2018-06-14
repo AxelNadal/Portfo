@@ -1,4 +1,4 @@
-@extends('adminlte::page')
+{{--  @extends('adminlte::page')
 
 @section('title', 'posts')
 
@@ -49,4 +49,46 @@
             </div>
     </div>
 </div>
+@stop  --}}
+@extends('adminlte::page')
+
+@section('title', 'Admin post')
+
+@section('content_header')
+    <h1>Gestion des posts</h1>
+@stop
+
+@section('content')
+
+    <div class="box box-default">
+        <div class="box-header">
+            <div>
+                <a href="{{route('posts.create')}}" class="btn btn-success pull-right">Ajouter un post</a>
+            </div>
+        </div>
+        <div class="box-body">
+            <table class="table table-light">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Titre post</th>
+                        <th>Auteur</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach($posts as $post)
+                    <tr>
+                        <div class="card">
+                            <td scope="row">{{$loop->iteration}}</td>
+                            <td>{{$post->titre}}</td>
+                            <td>{{$post->user->name}}</td>
+                            <td><a href="{{route('posts.show',['post'=>$post->id])}}" class="btn btn-info">voir</a></td>
+                        </div>
+                    </tr>
+                    @endforeach
+                </tbody>
+            </table>
+        </div>
+    </div>
 @stop
